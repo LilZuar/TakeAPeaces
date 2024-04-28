@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7B78BAB2BDEA50500EFEC6C /* TestGyroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */; };
+		B7B78BAD2BDEA50500EFEC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */; };
+		B7B78BAF2BDEA50600EFEC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B78BAE2BDEA50600EFEC6C /* Assets.xcassets */; };
+		B7B78BB22BDEA50600EFEC6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B78BB12BDEA50600EFEC6C /* Preview Assets.xcassets */; };
+		B7B78BBC2BDEA50600EFEC6C /* TestGyroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BBB2BDEA50600EFEC6C /* TestGyroTests.swift */; };
+		B7B78BC62BDEA50600EFEC6C /* TestGyroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */; };
+		B7B78BC82BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7B78BB82BDEA50600EFEC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B78B9F2BDEA50500EFEC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B78BA62BDEA50500EFEC6C;
+			remoteInfo = TestGyro;
+		};
+		B7B78BC22BDEA50600EFEC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B78B9F2BDEA50500EFEC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B78BA62BDEA50500EFEC6C;
+			remoteInfo = TestGyro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7B78BA72BDEA50500EFEC6C /* TestGyro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGyro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroApp.swift; sourceTree = "<group>"; };
+		B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7B78BAE2BDEA50600EFEC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7B78BB12BDEA50600EFEC6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7B78BB72BDEA50600EFEC6C /* TestGyroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGyroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B78BBB2BDEA50600EFEC6C /* TestGyroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroTests.swift; sourceTree = "<group>"; };
+		B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGyroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITests.swift; sourceTree = "<group>"; };
+		B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B78BA42BDEA50500EFEC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B78BB42BDEA50600EFEC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B78BBE2BDEA50600EFEC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7B78B9E2BDEA50500EFEC6C = {
+			isa = PBXGroup;
+			children = (
+				B7B78BA92BDEA50500EFEC6C /* TestGyro */,
+				B7B78BBA2BDEA50600EFEC6C /* TestGyroTests */,
+				B7B78BC42BDEA50600EFEC6C /* TestGyroUITests */,
+				B7B78BA82BDEA50500EFEC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B78BA82BDEA50500EFEC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B78BA72BDEA50500EFEC6C /* TestGyro.app */,
+				B7B78BB72BDEA50600EFEC6C /* TestGyroTests.xctest */,
+				B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B78BA92BDEA50500EFEC6C /* TestGyro */ = {
+			isa = PBXGroup;
+			children = (
+				B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */,
+				B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */,
+				B7B78BAE2BDEA50600EFEC6C /* Assets.xcassets */,
+				B7B78BB02BDEA50600EFEC6C /* Preview Content */,
+			);
+			path = TestGyro;
+			sourceTree = "<group>";
+		};
+		B7B78BB02BDEA50600EFEC6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7B78BB12BDEA50600EFEC6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7B78BBA2BDEA50600EFEC6C /* TestGyroTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B78BBB2BDEA50600EFEC6C /* TestGyroTests.swift */,
+			);
+			path = TestGyroTests;
+			sourceTree = "<group>";
+		};
+		B7B78BC42BDEA50600EFEC6C /* TestGyroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */,
+				B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */,
+			);
+			path = TestGyroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B78BA62BDEA50500EFEC6C /* TestGyro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B78BCB2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyro" */;
+			buildPhases = (
+				B7B78BA32BDEA50500EFEC6C /* Sources */,
+				B7B78BA42BDEA50500EFEC6C /* Frameworks */,
+				B7B78BA52BDEA50500EFEC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGyro;
+			productName = TestGyro;
+			productReference = B7B78BA72BDEA50500EFEC6C /* TestGyro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7B78BB62BDEA50600EFEC6C /* TestGyroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B78BCE2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyroTests" */;
+			buildPhases = (
+				B7B78BB32BDEA50600EFEC6C /* Sources */,
+				B7B78BB42BDEA50600EFEC6C /* Frameworks */,
+				B7B78BB52BDEA50600EFEC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B78BB92BDEA50600EFEC6C /* PBXTargetDependency */,
+			);
+			name = TestGyroTests;
+			productName = TestGyroTests;
+			productReference = B7B78BB72BDEA50600EFEC6C /* TestGyroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7B78BC02BDEA50600EFEC6C /* TestGyroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B78BD12BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyroUITests" */;
+			buildPhases = (
+				B7B78BBD2BDEA50600EFEC6C /* Sources */,
+				B7B78BBE2BDEA50600EFEC6C /* Frameworks */,
+				B7B78BBF2BDEA50600EFEC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B78BC32BDEA50600EFEC6C /* PBXTargetDependency */,
+			);
+			name = TestGyroUITests;
+			productName = TestGyroUITests;
+			productReference = B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B78B9F2BDEA50500EFEC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B7B78BA62BDEA50500EFEC6C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B7B78BB62BDEA50600EFEC6C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B7B78BA62BDEA50500EFEC6C;
+					};
+					B7B78BC02BDEA50600EFEC6C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B7B78BA62BDEA50500EFEC6C;
+					};
+				};
+			};
+			buildConfigurationList = B7B78BA22BDEA50500EFEC6C /* Build configuration list for PBXProject "TestGyro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B78B9E2BDEA50500EFEC6C;
+			productRefGroup = B7B78BA82BDEA50500EFEC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B78BA62BDEA50500EFEC6C /* TestGyro */,
+				B7B78BB62BDEA50600EFEC6C /* TestGyroTests */,
+				B7B78BC02BDEA50600EFEC6C /* TestGyroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B78BA52BDEA50500EFEC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B78BB22BDEA50600EFEC6C /* Preview Assets.xcassets in Resources */,
+				B7B78BAF2BDEA50600EFEC6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B78BB52BDEA50600EFEC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B78BBF2BDEA50600EFEC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B78BA32BDEA50500EFEC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B78BAD2BDEA50500EFEC6C /* ContentView.swift in Sources */,
+				B7B78BAB2BDEA50500EFEC6C /* TestGyroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B78BB32BDEA50600EFEC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B78BBC2BDEA50600EFEC6C /* TestGyroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B78BBD2BDEA50600EFEC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B78BC82BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift in Sources */,
+				B7B78BC62BDEA50600EFEC6C /* TestGyroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7B78BB92BDEA50600EFEC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B78BA62BDEA50500EFEC6C /* TestGyro */;
+			targetProxy = B7B78BB82BDEA50600EFEC6C /* PBXContainerItemProxy */;
+		};
+		B7B78BC32BDEA50600EFEC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B78BA62BDEA50500EFEC6C /* TestGyro */;
+			targetProxy = B7B78BC22BDEA50600EFEC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7B78BC92BDEA50600EFEC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7B78BCA2BDEA50600EFEC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7B78BCC2BDEA50600EFEC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestGyro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.TestGyro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B78BCD2BDEA50600EFEC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestGyro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.TestGyro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7B78BCF2BDEA50600EFEC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.TestGyroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGyro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestGyro";
+			};
+			name = Debug;
+		};
+		B7B78BD02BDEA50600EFEC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.TestGyroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGyro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestGyro";
+			};
+			name = Release;
+		};
+		B7B78BD22BDEA50600EFEC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.TestGyroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestGyro;
+			};
+			name = Debug;
+		};
+		B7B78BD32BDEA50600EFEC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.TestGyroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestGyro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B78BA22BDEA50500EFEC6C /* Build configuration list for PBXProject "TestGyro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B78BC92BDEA50600EFEC6C /* Debug */,
+				B7B78BCA2BDEA50600EFEC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B78BCB2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B78BCC2BDEA50600EFEC6C /* Debug */,
+				B7B78BCD2BDEA50600EFEC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B78BCE2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B78BCF2BDEA50600EFEC6C /* Debug */,
+				B7B78BD02BDEA50600EFEC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B78BD12BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B78BD22BDEA50600EFEC6C /* Debug */,
+				B7B78BD32BDEA50600EFEC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B78B9F2BDEA50500EFEC6C /* Project object */;
+}
