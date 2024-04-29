@@ -14,6 +14,7 @@
 		B7B78BBC2BDEA50600EFEC6C /* TestGyroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BBB2BDEA50600EFEC6C /* TestGyroTests.swift */; };
 		B7B78BC62BDEA50600EFEC6C /* TestGyroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */; };
 		B7B78BC82BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */; };
+		B7B78BD52BDF7B4900EFEC6C /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BD42BDF7B4900EFEC6C /* GyroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGyroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITests.swift; sourceTree = "<group>"; };
 		B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7B78BD42BDF7B4900EFEC6C /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */,
 				B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */,
+				B7B78BD42BDF7B4900EFEC6C /* GyroView.swift */,
 				B7B78BAE2BDEA50600EFEC6C /* Assets.xcassets */,
 				B7B78BB02BDEA50600EFEC6C /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				B7B78BAD2BDEA50500EFEC6C /* ContentView.swift in Sources */,
 				B7B78BAB2BDEA50500EFEC6C /* TestGyroApp.swift in Sources */,
+				B7B78BD52BDF7B4900EFEC6C /* GyroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestGyro/Preview Content\"";
+				DEVELOPMENT_TEAM = J56U42A6JG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestGyro/Preview Content\"";
+				DEVELOPMENT_TEAM = J56U42A6JG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
