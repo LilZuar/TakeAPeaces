@@ -15,7 +15,7 @@ struct ContentView: View {
     let motionManager = CMMotionManager()
     @State var gyroData: CMRotationRate = CMRotationRate(x: 0, y: 0, z: 0)
     @State var timer: Timer?
-    @State private var globePosition = CGPoint(x: 170, y: 480)
+    @State private var globePosition = CGPoint(x: 170, y: 100)
     @State var duration: Int = 20
     @State var score: Int = 0
     
@@ -32,26 +32,49 @@ struct ContentView: View {
     
     
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             Image("Toiletpage")
                 .resizable()
                 .scaledToFit()
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
             VStack {
+                HStack(spacing: 20){
+                    Image("Toilet Full")
+                        .resizable()
+                        .scaledToFit()
+                        .ignoresSafeArea()
+                        
+                    
+                    Image("Bladder Penuh")
+                        .resizable()
+                        .scaledToFit()
+                        .ignoresSafeArea()
+                    
+                    Spacer()
+                    
+                    Image("Toilet Full")
+                        .resizable()
+                        .scaledToFit()
+                        .ignoresSafeArea()
+                }
+                .ignoresSafeArea()
+            }.ignoresSafeArea()
+            VStack {
                 Image("pipisKanan")
                     .resizable()
-                    .frame(width: 200,height: 1500)
+                    .frame(width: 150, height: 1500)
                     .position(globePosition)
                     .onAppear{
                         startGyros()
-                        globePosition.x = Double.random(in: 10...350)
-                        globePosition.y = Double.random(in: 351...600)
+//                        globePosition.x = Double.random(in: 10...350)
+//                        globePosition.y = Double.random(in: 351...600)
                     }
                 Text("\(duration)")
                     .foregroundColor(Color.black)
                 Text("Score: \(score)")
                     .foregroundColor(Color.black)
+                
                 
                 
             }
@@ -76,11 +99,18 @@ struct ContentView: View {
             }
             
         func updateGlobePosition(with rotationRate: CMRotationRate) {
-            let sensitivity: CGFloat = 10 // Adjust sensitivity as needed
-            
+            let sensitivity: CGFloat = 8 // Adjust sensitivity as needed
+            var duration = duration
             // Calculate the change in position based on gyroscope data
-            let deltaX = CGFloat(rotationRate.y) * sensitivity
-            let deltaY = CGFloat(rotationRate.x) * sensitivity
+            var deltaX = CGFloat(rotationRate.y) * sensitivity
+            var deltaY: CGFloat
+            
+            if duration < 4{
+                deltaY = CGFloat(rotationRate.x) * sensitivity + CGFloat(0.8)
+            }else{
+                deltaY = CGFloat(rotationRate.x) * sensitivity
+            }
+            
             
             // Update the globe position, ensuring it stays within bounds
             let newX = min(max(globePosition.x + deltaX, 0), maxX)
