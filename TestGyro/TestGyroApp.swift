@@ -12,6 +12,7 @@ struct TestGyroApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }

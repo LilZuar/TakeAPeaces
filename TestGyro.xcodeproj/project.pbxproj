@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B77638772BE024AC00B125CD /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77638762BE024AC00B125CD /* GyroView.swift */; };
 		B7B78BAB2BDEA50500EFEC6C /* TestGyroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */; };
 		B7B78BAD2BDEA50500EFEC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */; };
 		B7B78BAF2BDEA50600EFEC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B78BAE2BDEA50600EFEC6C /* Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		B7B78BBC2BDEA50600EFEC6C /* TestGyroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BBB2BDEA50600EFEC6C /* TestGyroTests.swift */; };
 		B7B78BC62BDEA50600EFEC6C /* TestGyroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */; };
 		B7B78BC82BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */; };
-		B7B78BD52BDF7B4900EFEC6C /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BD42BDF7B4900EFEC6C /* GyroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B77638762BE024AC00B125CD /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		B7B78BA72BDEA50500EFEC6C /* TestGyro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGyro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroApp.swift; sourceTree = "<group>"; };
 		B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGyroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITests.swift; sourceTree = "<group>"; };
 		B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B7B78BD42BDF7B4900EFEC6C /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			children = (
 				B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */,
 				B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */,
-				B7B78BD42BDF7B4900EFEC6C /* GyroView.swift */,
+				B77638762BE024AC00B125CD /* GyroView.swift */,
 				B7B78BAE2BDEA50600EFEC6C /* Assets.xcassets */,
 				B7B78BB02BDEA50600EFEC6C /* Preview Content */,
 			);
@@ -260,9 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77638772BE024AC00B125CD /* GyroView.swift in Sources */,
 				B7B78BAD2BDEA50500EFEC6C /* ContentView.swift in Sources */,
 				B7B78BAB2BDEA50500EFEC6C /* TestGyroApp.swift in Sources */,
-				B7B78BD52BDF7B4900EFEC6C /* GyroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
