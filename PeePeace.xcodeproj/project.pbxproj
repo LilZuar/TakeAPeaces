@@ -15,6 +15,14 @@
 		B7B78BBC2BDEA50600EFEC6C /* TestGyroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BBB2BDEA50600EFEC6C /* TestGyroTests.swift */; };
 		B7B78BC62BDEA50600EFEC6C /* TestGyroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */; };
 		B7B78BC82BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */; };
+		B7D666C62BE2446C00198090 /* GameHeadBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D666C52BE2446C00198090 /* GameHeadBar.swift */; };
+		B7D666CA2BE253C900198090 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D666C92BE253C900198090 /* HomePageView.swift */; };
+		B7D666CC2BE2544D00198090 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D666CB2BE2544D00198090 /* GameView.swift */; };
+		B7D666CE2BE2619700198090 /* PopUpStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D666CD2BE2619700198090 /* PopUpStartView.swift */; };
+		B7D666D02BE277EE00198090 /* PopUpFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D666CF2BE277EE00198090 /* PopUpFinishView.swift */; };
+		B7D666D22BE37A8E00198090 /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D666D12BE37A8E00198090 /* SoundEffect.swift */; };
+		B7D666D52BE37E4700198090 /* PissSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7D666D42BE37E4700198090 /* PissSound.mp3 */; };
+		B7D666D72BE37EA900198090 /* PissTap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7D666D62BE37EA900198090 /* PissTap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,14 @@
 		B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGyroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITests.swift; sourceTree = "<group>"; };
 		B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7D666C52BE2446C00198090 /* GameHeadBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHeadBar.swift; sourceTree = "<group>"; };
+		B7D666C92BE253C900198090 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		B7D666CB2BE2544D00198090 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B7D666CD2BE2619700198090 /* PopUpStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpStartView.swift; sourceTree = "<group>"; };
+		B7D666CF2BE277EE00198090 /* PopUpFinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpFinishView.swift; sourceTree = "<group>"; };
+		B7D666D12BE37A8E00198090 /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		B7D666D42BE37E4700198090 /* PissSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PissSound.mp3; path = ../../../../Downloads/PissSound.mp3; sourceTree = "<group>"; };
+		B7D666D62BE37EA900198090 /* PissTap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PissTap.mp3; path = ../../../../Downloads/PissTap.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +112,16 @@
 		B7B78BA92BDEA50500EFEC6C /* TestGyro */ = {
 			isa = PBXGroup;
 			children = (
+				B7D666D32BE37E3200198090 /* Media */,
 				B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */,
 				B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */,
+				B7D666CB2BE2544D00198090 /* GameView.swift */,
+				B7D666C52BE2446C00198090 /* GameHeadBar.swift */,
+				B7D666C92BE253C900198090 /* HomePageView.swift */,
 				B77638762BE024AC00B125CD /* GyroView.swift */,
+				B7D666CD2BE2619700198090 /* PopUpStartView.swift */,
+				B7D666CF2BE277EE00198090 /* PopUpFinishView.swift */,
+				B7D666D12BE37A8E00198090 /* SoundEffect.swift */,
 				B7B78BAE2BDEA50600EFEC6C /* Assets.xcassets */,
 				B7B78BB02BDEA50600EFEC6C /* Preview Content */,
 			);
@@ -128,6 +151,15 @@
 				B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */,
 			);
 			path = TestGyroUITests;
+			sourceTree = "<group>";
+		};
+		B7D666D32BE37E3200198090 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				B7D666D62BE37EA900198090 /* PissTap.mp3 */,
+				B7D666D42BE37E4700198090 /* PissSound.mp3 */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D666D52BE37E4700198090 /* PissSound.mp3 in Resources */,
 				B7B78BB22BDEA50600EFEC6C /* Preview Assets.xcassets in Resources */,
+				B7D666D72BE37EA900198090 /* PissTap.mp3 in Resources */,
 				B7B78BAF2BDEA50600EFEC6C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D666D02BE277EE00198090 /* PopUpFinishView.swift in Sources */,
+				B7D666CE2BE2619700198090 /* PopUpStartView.swift in Sources */,
 				B77638772BE024AC00B125CD /* GyroView.swift in Sources */,
+				B7D666C62BE2446C00198090 /* GameHeadBar.swift in Sources */,
 				B7B78BAD2BDEA50500EFEC6C /* ContentView.swift in Sources */,
 				B7B78BAB2BDEA50500EFEC6C /* TestGyroApp.swift in Sources */,
+				B7D666CC2BE2544D00198090 /* GameView.swift in Sources */,
+				B7D666CA2BE253C900198090 /* HomePageView.swift in Sources */,
+				B7D666D22BE37A8E00198090 /* SoundEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
