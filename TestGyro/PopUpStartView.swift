@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct PopUpStartView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+    @Binding var countdown: Int
+        var body: some View {
+            ZStack {
+                if(countdown > 3){
+                    Image(
+                        "liat hape 1"
+                    )
+                }else{
+                    Image(
+                        "liat hape 2"
+                    )
+                }
+                                
+                Rectangle()
+                    .fill(Color.gray.opacity(0.3)) // Adjust opacity as needed
+                    .ignoresSafeArea()
+            }
+        }
+    
+    
 }
 
 #Preview {
-    PopUpStartView()
+    PopUpStartView(countdown: .constant(5))
 }
+

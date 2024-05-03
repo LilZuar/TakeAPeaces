@@ -44,14 +44,14 @@
 
 /* Begin PBXFileReference section */
 		B77638762BE024AC00B125CD /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
-		B7B78BA72BDEA50500EFEC6C /* TestGyro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGyro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B78BA72BDEA50500EFEC6C /* PeePeace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeePeace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B78BAA2BDEA50500EFEC6C /* TestGyroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroApp.swift; sourceTree = "<group>"; };
 		B7B78BAC2BDEA50500EFEC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7B78BAE2BDEA50600EFEC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B78BB12BDEA50600EFEC6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B7B78BB72BDEA50600EFEC6C /* TestGyroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGyroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B78BB72BDEA50600EFEC6C /* PeePeaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeePeaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B78BBB2BDEA50600EFEC6C /* TestGyroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroTests.swift; sourceTree = "<group>"; };
-		B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGyroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B78BC12BDEA50600EFEC6C /* PeePeaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeePeaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B78BC52BDEA50600EFEC6C /* TestGyroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITests.swift; sourceTree = "<group>"; };
 		B7B78BC72BDEA50600EFEC6C /* TestGyroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGyroUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B7D666C52BE2446C00198090 /* GameHeadBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHeadBar.swift; sourceTree = "<group>"; };
@@ -102,9 +102,9 @@
 		B7B78BA82BDEA50500EFEC6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7B78BA72BDEA50500EFEC6C /* TestGyro.app */,
-				B7B78BB72BDEA50600EFEC6C /* TestGyroTests.xctest */,
-				B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */,
+				B7B78BA72BDEA50500EFEC6C /* PeePeace.app */,
+				B7B78BB72BDEA50600EFEC6C /* PeePeaceTests.xctest */,
+				B7B78BC12BDEA50600EFEC6C /* PeePeaceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7B78BA62BDEA50500EFEC6C /* TestGyro */ = {
+		B7B78BA62BDEA50500EFEC6C /* PeePeace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7B78BCB2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyro" */;
+			buildConfigurationList = B7B78BCB2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "PeePeace" */;
 			buildPhases = (
 				B7B78BA32BDEA50500EFEC6C /* Sources */,
 				B7B78BA42BDEA50500EFEC6C /* Frameworks */,
@@ -177,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = TestGyro;
+			name = PeePeace;
 			productName = TestGyro;
-			productReference = B7B78BA72BDEA50500EFEC6C /* TestGyro.app */;
+			productReference = B7B78BA72BDEA50500EFEC6C /* PeePeace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B7B78BB62BDEA50600EFEC6C /* TestGyroTests */ = {
+		B7B78BB62BDEA50600EFEC6C /* PeePeaceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7B78BCE2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyroTests" */;
+			buildConfigurationList = B7B78BCE2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "PeePeaceTests" */;
 			buildPhases = (
 				B7B78BB32BDEA50600EFEC6C /* Sources */,
 				B7B78BB42BDEA50600EFEC6C /* Frameworks */,
@@ -195,14 +195,14 @@
 			dependencies = (
 				B7B78BB92BDEA50600EFEC6C /* PBXTargetDependency */,
 			);
-			name = TestGyroTests;
+			name = PeePeaceTests;
 			productName = TestGyroTests;
-			productReference = B7B78BB72BDEA50600EFEC6C /* TestGyroTests.xctest */;
+			productReference = B7B78BB72BDEA50600EFEC6C /* PeePeaceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B7B78BC02BDEA50600EFEC6C /* TestGyroUITests */ = {
+		B7B78BC02BDEA50600EFEC6C /* PeePeaceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7B78BD12BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyroUITests" */;
+			buildConfigurationList = B7B78BD12BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "PeePeaceUITests" */;
 			buildPhases = (
 				B7B78BBD2BDEA50600EFEC6C /* Sources */,
 				B7B78BBE2BDEA50600EFEC6C /* Frameworks */,
@@ -213,9 +213,9 @@
 			dependencies = (
 				B7B78BC32BDEA50600EFEC6C /* PBXTargetDependency */,
 			);
-			name = TestGyroUITests;
+			name = PeePeaceUITests;
 			productName = TestGyroUITests;
-			productReference = B7B78BC12BDEA50600EFEC6C /* TestGyroUITests.xctest */;
+			productReference = B7B78BC12BDEA50600EFEC6C /* PeePeaceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B7B78BA22BDEA50500EFEC6C /* Build configuration list for PBXProject "TestGyro" */;
+			buildConfigurationList = B7B78BA22BDEA50500EFEC6C /* Build configuration list for PBXProject "PeePeace" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -254,9 +254,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7B78BA62BDEA50500EFEC6C /* TestGyro */,
-				B7B78BB62BDEA50600EFEC6C /* TestGyroTests */,
-				B7B78BC02BDEA50600EFEC6C /* TestGyroUITests */,
+				B7B78BA62BDEA50500EFEC6C /* PeePeace */,
+				B7B78BB62BDEA50600EFEC6C /* PeePeaceTests */,
+				B7B78BC02BDEA50600EFEC6C /* PeePeaceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,12 +328,12 @@
 /* Begin PBXTargetDependency section */
 		B7B78BB92BDEA50600EFEC6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B7B78BA62BDEA50500EFEC6C /* TestGyro */;
+			target = B7B78BA62BDEA50500EFEC6C /* PeePeace */;
 			targetProxy = B7B78BB82BDEA50600EFEC6C /* PBXContainerItemProxy */;
 		};
 		B7B78BC32BDEA50600EFEC6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B7B78BA62BDEA50500EFEC6C /* TestGyro */;
+			target = B7B78BA62BDEA50500EFEC6C /* PeePeace */;
 			targetProxy = B7B78BC22BDEA50600EFEC6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -531,7 +531,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGyro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestGyro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeePeace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeePeace";
 			};
 			name = Debug;
 		};
@@ -550,7 +550,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGyro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestGyro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeePeace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeePeace";
 			};
 			name = Release;
 		};
@@ -591,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7B78BA22BDEA50500EFEC6C /* Build configuration list for PBXProject "TestGyro" */ = {
+		B7B78BA22BDEA50500EFEC6C /* Build configuration list for PBXProject "PeePeace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7B78BC92BDEA50600EFEC6C /* Debug */,
@@ -600,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7B78BCB2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyro" */ = {
+		B7B78BCB2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "PeePeace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7B78BCC2BDEA50600EFEC6C /* Debug */,
@@ -609,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7B78BCE2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyroTests" */ = {
+		B7B78BCE2BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "PeePeaceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7B78BCF2BDEA50600EFEC6C /* Debug */,
@@ -618,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7B78BD12BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "TestGyroUITests" */ = {
+		B7B78BD12BDEA50600EFEC6C /* Build configuration list for PBXNativeTarget "PeePeaceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7B78BD22BDEA50600EFEC6C /* Debug */,

@@ -9,7 +9,30 @@ import SwiftUI
 
 struct HomePageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ZStack {
+                Image ("HomePage")
+                    .resizable()
+                    .ignoresSafeArea()
+                    .scaledToFill()
+                
+                HStack{
+                    
+                    NavigationLink {
+                        GameView()
+                    } label: {
+                        Image ("doorbutton")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 320, height: 320)
+                            .position(x: 267,y: 420)
+                    }
+                    
+                    
+                }
+                
+            }
+        }
     }
 }
 
